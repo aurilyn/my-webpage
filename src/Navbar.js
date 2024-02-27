@@ -1,9 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import './index.css';
+import logo from "./logo192.png"
 
 export default function Navbar() {
     return (
         <header>
+            <img src={logo} alt="Logo" />
             <nav>
                 <ul>
                     <li>Item A</li>
